@@ -1,0 +1,12 @@
+接收页面参数（参数传递）
+
+
+alt+enter:修改项目部署路径
+ctrl+shift+m:导入包
+
+
+关于乱码问题：
+
+1. get请求可以修改服务器的编码：在tomcat的server.xml文件中添加“URIEncoding=UTF-8”
+
+2. post请求可以使用过滤器处理：在web.xml文件中配置过滤器
